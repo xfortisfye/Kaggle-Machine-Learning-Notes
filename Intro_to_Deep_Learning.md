@@ -76,6 +76,8 @@
 
 ![img](img/itdl_03_10.png)
 
+## Lab | Stochastic Gradient Descent
+
 ![img](img/itdl_03_11.png)
 
 ![img](img/itdl_03_12.png)
@@ -133,6 +135,8 @@
 ![img](img/itdl_04_13.png)
 
 ![img](img/itdl_04_14.png)
+
+## Lab | Overfitting and Underfitting
 
 ![img](img/itdl_04_15.png)
 
@@ -193,6 +197,8 @@
 ![img](img/itdl_05_07.png)
 
 ![img](img/itdl_05_08.png)
+
+## Lab | Dropout and Batch Normalization 
 
 ![img](img/itdl_05_09.png)
 

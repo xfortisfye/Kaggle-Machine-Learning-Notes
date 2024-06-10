@@ -204,13 +204,13 @@
 
 ![img](img/itdl_05_10.png)
 
-Before applying dropout: 
-
 ![img](img/itdl_05_11.png)
 
-After applying dropout: 
+Before applying dropout: 
 
 ![img](img/itdl_05_12.png)
+
+After applying dropout: 
 
 ![img](img/itdl_05_13.png)
 
@@ -253,6 +253,8 @@ After applying dropout:
 ![img](img/itdl_06_08.png)
 
 ![img](img/itdl_06_09.png)
+
+## Lab | Binary Classification
 
 ![img](img/itdl_06_10.png)
 

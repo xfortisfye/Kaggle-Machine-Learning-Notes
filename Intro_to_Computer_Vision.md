@@ -130,13 +130,7 @@
 
 ![img](img/itcv_02_34.png)
 
-![img](img/itcv_02_35.png)
-
-![img](img/itcv_02_36.png)
-
-![img](img/itcv_02_37.png)
-
-# 3) Stochastic Gradient Descent
+# 3) Maximum Pooling
 
 ![img](img/itcv_03_01.png)
 

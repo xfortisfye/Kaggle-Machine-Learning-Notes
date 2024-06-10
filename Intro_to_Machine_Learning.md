@@ -46,7 +46,7 @@ _____________________
 melbourne_data = melbourne_data.dropna(axis=0) 
 ```
 
-![img](img/itml-03_01.png)
+![img](img/itml_03_01.png)
 
 ## Selecting The Prediction Target 
 
@@ -54,7 +54,7 @@ You can pull out a variable with dot-notation. This single column is stored in
 
 We'll use the dot notation to select the column we want to predict, which is called the prediction target. By convention, the prediction target is called y. So the code we need to save the house prices in the Melbourne data is 
 
-![img](img/itml-03_02.png)
+![img](img/itml_03_02.png)
 
 ## Choosing "Features"
 
@@ -66,21 +66,21 @@ We select multiple features by providing a list of column names inside brackets.
 
 Here is an example: 
 
-![img](img/itml-03_03.png)
+![img](img/itml_03_03.png)
 
 By convention, this data is called X. 
 
-![img](img/itml-03_04.png)
+![img](img/itml_03_04.png)
 
 Let's quickly review the data we'll be using to predict house prices using the describe method and the head method, which shows the top few rows. 
 
-![img](img/itml-03_05.png)
+![img](img/itml_03_05.png)
 
-![img](img/itml-03_06.png)
+![img](img/itml_03_06.png)
 
-![img](img/itml-03_07.png)
+![img](img/itml_03_07.png)
 
-![img](img/itml-03_08.png)
+![img](img/itml_03_08.png)
 
 ## Building Your Model
 
@@ -95,9 +95,9 @@ The steps to building and using a model are:
 
 Here is an example of defining a decision tree model with scikit-learn and fitting it with the features and target variable. 
 
-![img](img/itml-03_09.png)
+![img](img/itml_03_09.png)
 
-![img](img/itml-03_10.png)
+![img](img/itml_03_10.png)
 
 Many machine learning models allow some randomness in model training. Specifying a number for random_state ensures you get the same results in each run. This is considered a good practice. You use any number, and model quality won't depend meaningfully on exactly what value you choose. 
 
@@ -105,9 +105,9 @@ We now have a fitted model that we can use to make predictions.
 
 In practice, you'll want to make predictions for new houses coming on the market rather than the houses we already have prices for. But we'll make predictions for the first few rows of the training data to see how the predict function works 
 
-![img](img/itml-03_11.png)
+![img](img/itml_03_11.png)
 
-![img](img/itml-03_12.png)
+![img](img/itml_03_12.png)
 
 # 4) Model Validation
 
@@ -131,11 +131,11 @@ On average, our predictions are off by about X.
 
 To calculate MAE, we first need a model.  
 
-![img](img/itml-04_01.png)
+![img](img/itml_04_01.png)
 
 Once we have a model, here is how we calculate the mean absolute error: 
 
-![img](img/itml-04_02.png)
+![img](img/itml_04_02.png)
 
 ## The Problem with "In-Sample" Scores
 
@@ -158,21 +158,21 @@ The scikit-learn library has a function train_test_split to break up the dat
 Here is the code: 
 _Recall that features are loaded in X and your target is loaded in Y_
 
-![img](img/itml-04_03.png)
+![img](img/itml_04_03.png)
 
-![img](img/itml-04_04.png)
+![img](img/itml_04_04.png)
 
-![img](img/itml-04_05.png)
+![img](img/itml_04_05.png)
 
-![img](img/itml-04_06.png)
+![img](img/itml_04_06.png)
 
-![img](img/itml-04_07.png)
+![img](img/itml_04_07.png)
 
-![img](img/itml-04_08.png)
+![img](img/itml_04_08.png)
 
-![img](img/itml-04_09.png)
+![img](img/itml_04_09.png)
 
-![img](img/itml-04_10.png)
+![img](img/itml_04_10.png)
 
 # 5) Underfitting and Overfitting
 
@@ -190,21 +190,21 @@ At an extreme, if a tree divides houses into only 2 or 4, each group still has a
 
 Since we care about accuracy on new data, which we estimate from our validation data, we want to find the sweet spot between underfitting and overfitting. Visually, we want the low point of the (red) validation curve in 
 
-![img](img/itml-05_01.png)
+![img](img/itml_05_01.png)
 
-![img](img/itml-05_02.png)
+![img](img/itml_05_02.png)
 
-![img](img/itml-05_03.png)
+![img](img/itml_05_03.png)
 
-![img](img/itml-05_04.png)
+![img](img/itml_05_04.png)
 
-![img](img/itml-05_05.png)
+![img](img/itml_05_05.png)
 
-![img](img/itml-05_06.png)
+![img](img/itml_05_06.png)
 
-![img](img/itml-05_07.png)
+![img](img/itml_05_07.png)
 
-![img](img/itml-05_08.png)
+![img](img/itml_05_08.png)
 
 # 6) Random Forests
 
@@ -214,14 +214,14 @@ Even today's most sophisticated modeling techniques face this tension between un
 
 The random forest uses many trees, and it makes a prediction by averaging the predictions of each component tree. It generally has much better predictive accuracy than a single decision tree and it works well with default parameters. If you keep modeling, you can learn more models with even better performance, but many of those are sensitive to getting the right parameters.
 
-![img](img/itml-06_01.png)
+![img](img/itml_06_01.png)
 
-![img](img/itml-06_02.png)
+![img](img/itml_06_02.png)
 
-![img](img/itml-06_03.png)
+![img](img/itml_06_03.png)
 
-![img](img/itml-06_04.png)
+![img](img/itml_06_04.png)
 
-![img](img/itml-06_05.png)
+![img](img/itml_06_05.png)
 
-![img](img/itml-06_06.png)
+![img](img/itml_06_06.png)

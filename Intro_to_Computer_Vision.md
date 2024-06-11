@@ -152,7 +152,7 @@
 
 ![img](img/itcv_03_10.png)
 
-## Lab | Stochastic Gradient Descent
+## Lab | Maximum Pooling
 
 ![img](img/itcv_03_11.png)
 
@@ -182,7 +182,23 @@
 
 ![img](img/itcv_03_24.png)
 
-# 4) Overfitting and Underfitting
+![img](img/itcv_03_25.png)
+
+![img](img/itcv_03_26.png)
+
+![img](img/itcv_03_27.png)
+
+![img](img/itcv_03_28.png)
+
+![img](img/itcv_03_29.png)
+
+![img](img/itcv_03_30.png)
+
+![img](img/itcv_03_31.png)
+
+![img](img/itcv_03_32.png)
+
+# 4) The Sliding Window 
 
 ![img](img/itcv_04_01.png)
 
@@ -206,13 +222,13 @@
 
 ![img](img/itcv_04_11.png)
 
+## Lab | The Sliding Window 
+
 ![img](img/itcv_04_12.png)
 
 ![img](img/itcv_04_13.png)
 
 ![img](img/itcv_04_14.png)
-
-## Lab | Overfitting and Underfitting
 
 ![img](img/itcv_04_15.png)
 
@@ -232,31 +248,21 @@
 
 ![img](img/itcv_04_23.png)
 
+detrend
+
 ![img](img/itcv_04_24.png)
 
+average
+
 ![img](img/itcv_04_25.png)
+
+spencer
 
 ![img](img/itcv_04_26.png)
 
 ![img](img/itcv_04_27.png)
 
-![img](img/itcv_04_28.png)
-
-![img](img/itcv_04_29.png)
-
-![img](img/itcv_04_30.png)
-
-![img](img/itcv_04_31.png)
-
-![img](img/itcv_04_32.png)
-
-![img](img/itcv_04_33.png)
-
-![img](img/itcv_04_34.png)
-
-![img](img/itcv_04_35.png)
-
-# 5) Dropout and Batch Normalization 
+# 5) Custom Convnets 
 
 ![img](img/itcv_05_01.png)
 
@@ -274,19 +280,15 @@
 
 ![img](img/itcv_05_08.png)
 
-## Lab | Dropout and Batch Normalization 
-
 ![img](img/itcv_05_09.png)
 
 ![img](img/itcv_05_10.png)
 
 ![img](img/itcv_05_11.png)
 
-Before applying dropout: 
+## Lab | Custom Convnets 
 
 ![img](img/itcv_05_12.png)
-
-After applying dropout: 
 
 ![img](img/itcv_05_13.png)
 
@@ -302,15 +304,7 @@ After applying dropout:
 
 ![img](img/itcv_05_19.png)
 
-![img](img/itcv_05_20.png)
-
-![img](img/itcv_05_21.png)
-
-![img](img/itcv_05_22.png)
-
-![img](img/itcv_05_23.png)
-
-# 6) Binary Classification
+# 6) Data Augmentation 
 
 ![img](img/itcv_06_01.png)
 
@@ -330,11 +324,11 @@ After applying dropout:
 
 ![img](img/itcv_06_09.png)
 
-## Lab | Binary Classification
-
 ![img](img/itcv_06_10.png)
 
 ![img](img/itcv_06_11.png)
+
+## Lab | Data Augmentation 
 
 ![img](img/itcv_06_12.png)
 
@@ -351,3 +345,17 @@ After applying dropout:
 ![img](img/itcv_06_18.png)
 
 ![img](img/itcv_06_19.png)
+
+![img](img/itcv_06_20.png)
+
+![img](img/itcv_06_21.png)
+
+![img](img/itcv_06_22.png)
+
+![img](img/itcv_06_23.png)
+
+![img](img/itcv_06_24.png)
+
+![img](img/itcv_06_25.png)
+
+![img](img/itcv_06_26.png)
